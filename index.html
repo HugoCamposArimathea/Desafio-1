@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e65a12dd06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <section class="menu">
+            <section class="titulo">
+                <h2 class="container1">Codelândia</h2>
+                <h2 class="container2">blog</h2>
+            </section>
+            <section>
+                <input type="search" name="pesquisa" id="pesquisa" placeholder="       Pesquisar no blog">
+                <i class="fas fa-search"></i>
+            </section>
+        </section>
+    </header>
+    <main>
+        <div class="container-post">
+            <p class="date">02 de jul, 2021 <i class="heart far fa-heart"></i></p>
+            <h2 class="title">Agora é oficial: o Windows 11 está vindo</h2>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum in illum aliquid dolorum mollitia repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem iste ipsam obcaecati impedit aliquid.</p>
+        </div>
+        <div class="container-post">
+            <p class="date">02 de jul, 2021 <i class="heart far fa-heart"></i></p>
+            <h2 class="title">Tim Berners-Lee vai leiloar código fonte da web</h2>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis maxime ipsa inventore possimus distinctio numquam ut aspernatur expedita voluptatem? Illum asperiores voluptatibus totam at aperiam maiores praesentium nulla enim a?</p>
+        </div>
+        <div class="container-post">
+            <p class="date">02 de jul, 2021 <i class="heart far fa-heart"></i></p>
+            <h2 class="title">Tem Firefox novo no pedaço e você vai querer migrar</h2>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quod veritatis itaque veniam maxime.</p>
+        </div>
+        <div class="container-post">
+            <p class="date">02 de jul, 2021 <i class="heart far fa-heart"></i></p>
+            <h2 class="title">John McAfee, criador do antivírus McAfee, morre</h2>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat a enim architecto, illum asperiores praesentium omnis ab quisquam assumenda, reiciendis in sapiente dolores eius non modi quis voluptas eligendi! Doloremque.</p>
+        </div>
+    </main>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+
+        ScrollReveal().reveal('.container-post', { delay: 200 });
+        ScrollReveal().reveal('.date', { delay: 400 });
+        ScrollReveal().reveal('.title', { delay: 500 });
+        ScrollReveal().reveal('.description', { delay: 600 });
+    </script>
+</body>
+</html>

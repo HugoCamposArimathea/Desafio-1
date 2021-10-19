@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --blue: #3EA1DB;
+    --blue-dark: #574AE8;
+    --white: #FFF;
+  
+    --title: #313131;
+    --text: #B6B6B6;
+    
+    --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    background-color: rgba(128, 128, 128, 0.212);
+}
+header {
+    font-size: 12pt;
+    font-weight: normal;
+    color: var(--white);
+    background-image: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 80px;
+}
+header > div {
+    background-image: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
+}
+.menu {
+    margin: 0;
+    padding: 0%;
+    position: relative;
+    left: 25%;
+    top: 10%;
+}
+.container2 {
+    position: absolute;
+    bottom: 0;
+    top: 80%;
+    right: 46%;
+}
+.container1 {
+    position: absolute;
+    bottom: 0;
+    top: 80%;
+    right: 97%;
+}
+#pesquisa {
+    display: block;
+    background-image: linear-gradient(90deg, #574ae89d 0%, #3ea1db 100%);
+    border: none;
+    border-radius: 4px;
+    color: var(--white);
+    height: 55px;
+    width: 800px;
+    font-size: 13pt;
+    position: absolute;
+    top: 100px;
+    right: 46%;
+}
+i {
+    position: absolute;
+    right: 105%;
+    top: 119px;
+}
+main {
+    position: relative;
+}
+p{
+    color: #b6b6b6;
+    width: 100%;
+    line-height: 2em;
+}
+.heart {
+    position: absolute;
+    left: 750px;
+    top: 15px;
+    color: blue;
+}
+main > h2 {
+    color: var(--title);
+    font-weight: normal;
+}
+div {
+    background-color: var(--white);
+    margin-top: 40px;
+    max-width: 800px;
+    height: auto;
+    padding: 10px;
+    position: inherit;
+    top: 50%;
+    left: 18%;
+    border-radius: 4px;
+    
+}
+div > h2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
