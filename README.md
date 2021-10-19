@@ -9,7 +9,7 @@ animação também. Espero que gostem!
 
 ### Extra:
 
-Ainda nao tenho um link para a página do projeto, mas isso ainda está nos meus planos, assim que fizer isso eu coloco aqui o link para a visualização do projeto.✌
+Link do projeto para quem quiser dar uma olhada: <a href="https://hugocamposarimathea.github.io/Desafio-1/" target="_blank">Clique aqui</a>
 
 ### 📧 Caso queira conversar:
 <div>
