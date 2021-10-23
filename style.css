@@ -53,9 +53,6 @@
     width: 100%;
     margin: 80px auto 5px auto;
 }
-.container-search > i {
-    color: rgb(199, 199, 199);
-}
 body {
     background-color: rgba(128, 128, 128, 0.137);
     font-family: 'Inter', sans-serif;
@@ -75,8 +72,11 @@ main {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.349);
 }
 .description .date {
-    color: var(--text);
+    color: #b6b6b68e;
     text-align: justify;
+}
+.title {
+    color: #313131;
 }
 .date {
     display: flex;
